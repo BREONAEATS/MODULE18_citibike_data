@@ -18,3 +18,5 @@ for x in range(1, n+1):
     citibike_full_data = pd.concat([citibike_full_data, df])
 
 citibike_full_data
+
+JC-201708 citibike-tripdata.csv.zip
