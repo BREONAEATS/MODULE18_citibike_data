@@ -13,7 +13,7 @@ for x in range(1, n+1):
     else:
         month = x
     
-    df = pd.read_csv(f'citibike-data/2022/JC-2022{month}-JC-201708-citibike-tripdata.csv.zip')
+    df = pd.read_csv(f'citibike-data/2017/JC-2017{month}-JC-201708-citibike-tripdata.csv.zip')
     
     citibike_full_data = pd.concat([citibike_full_data, df])
 
